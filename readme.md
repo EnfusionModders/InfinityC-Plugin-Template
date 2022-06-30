@@ -1,8 +1,5 @@
-# Infinity 'C'
+# Infinity 'C' Plugin Template
 
-A cross-platform plugin framework for the [Enfusion Engine](#). Infinity empowers modders with the ability to extend the Enfusion Engine with custom native functionality. 
-
-Put simply, Infinity provides the framework to implement custom `proto` definitions. With this, modders can call their own underlying C++ functionality.
-
+Template project for creating Infinity plugins.
 
 ## TODO ADD MORE
