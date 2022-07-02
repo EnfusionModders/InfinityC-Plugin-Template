@@ -6,13 +6,6 @@
 
 # variables
 
-.PHONY: push
-push:
-	git add .
-	git commit -m "new work done :)"
-	git push
-
-
 .PHONY: windows
 windows:
 	mkdir -p build
