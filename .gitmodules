@@ -1,0 +1,3 @@
+[submodule "InfinityC"]
+	path = InfinityC
+	url = git@github.com:EnfusionModders/InfinityC.git
