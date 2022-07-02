@@ -104,7 +104,7 @@ void Register_ExamplePointerClass(InfinityCore* pCore)
 {
     g_pCore->Print(LVL_INFO, "Registering example pointer class.");
     
-    ScriptClass* pClass = pCore- >RegisterClass("ExamplePointerClass");
+    ScriptClass* pClass = pCore->RegisterClass("ExamplePointerClass");
     pCore->RegisterFunction(pClass, "Create", &ExamplePointerClass_Create);
     pCore->RegisterFunction(pClass, "Destroy", &ExamplePointerClass_Destroy);
     pCore->RegisterFunction(pClass, "GetAccessCount", &ExamplePointerClass_GetAccessCount);

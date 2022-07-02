@@ -9,8 +9,9 @@
 .PHONY: windows
 windows:
 	mkdir -p build
-	gcc  -DDEBUG -D_WIN64 -Wl,-subsystem,windows --shared -o build/plugin.dll -I ../InfinityC/src -I src/ src/*.c
+	gcc -D_WIN64 -Wl,-subsystem,windows --shared -o build/plugin.dll -I InfinityC/src -I src/ src/*.c
 
 .PHONY: linux
 linux:
+	mkdir -p build
 	$(error linux builds not supported)
