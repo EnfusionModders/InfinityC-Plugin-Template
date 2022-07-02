@@ -6,8 +6,8 @@
 
 #if defined(_WIN64)
 #define EXPORT __declspec(dllexport)
-#elif
-#define EXPORT
+#else
+#define EXPORT __attribute__((visibility ("default")))
 #endif
 
 InfinityCore* g_pCore = 0;

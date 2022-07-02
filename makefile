@@ -14,4 +14,4 @@ windows:
 .PHONY: linux
 linux:
 	mkdir -p build
-	$(error linux builds not supported)
+	gcc -D_GNU_SOURCE -fvisibility=hidden -fPIC -Wno-attributes --shared -o build/plugin.so -I InfinityC/src -I src/ src/*.c
